@@ -84,7 +84,7 @@ class SendMoneyActivity : AppCompatActivity() {
         val edtToBranchName = itemView.findViewById<View>(R.id.edtToBranchName) as AppCompatEditText
 
         builder.setNegativeButton("CANCEL") { dialog, _ -> dialog.dismiss() }
-        builder.setPositiveButton("CREATE") { dialog, _ ->
+        builder.setPositiveButton("SEND") { dialog, _ ->
 
             val sendMoney = ModelSendMoney()
             sendMoney.bankName = edtBankName.text.toString()
