@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtBankName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank Name"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtBranchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Branch Name"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtRoutingNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Routing Number"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

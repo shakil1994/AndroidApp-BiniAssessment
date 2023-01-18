@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BiniAssessment</string>
+    <string name="title_activity_near_by_bank">NearByBankActivity</string>
+</resources>

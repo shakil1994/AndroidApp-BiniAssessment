@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "982830959535",
+    "project_id": "bini-assessment",
+    "storage_bucket": "bini-assessment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982830959535:android:dab5b9eb129913d9bc7d5a",
+        "android_client_info": {
+          "package_name": "com.shakil.biniassessment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982830959535-h1q68hnakuo6kca4l81uq9840qs99alt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shakil.biniassessment",
+            "certificate_hash": "d5bc6991451b4b4d46ffb517a9842518f4319ebe"
+          }
+        },
+        {
+          "client_id": "982830959535-6p9qqoam4bj6724dq4cjje8d4fjbrffe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPnYM_C6Ybgl0lFNJaOA3QRhezJ4kTKp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982830959535-6p9qqoam4bj6724dq4cjje8d4fjbrffe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
